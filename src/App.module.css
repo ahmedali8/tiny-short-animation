@@ -1,3 +1,8 @@
+* {
+    font-family: 'Montserrat', 'Noto Sans JP', sans-serif !important;
+}
+
 .app {
     /* background-image: linear-gradient(to bottom right, #4ca9df, #292e91); */
+    height: 100vh;
 }
