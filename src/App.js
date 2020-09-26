@@ -23,10 +23,10 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/destinations" element={<Destinations />} />
                 <Route path="/plans" element={<Plans />} />
-                <Route path="/coupletour" element={<CoupleTour />} />
+                <Route path="/couple-tour" element={<CoupleTour />} />
                 <Route path="/booking" element={<Booking />} />
-                <Route path="/aboutus" element={<AboutUs />} />
-                <Route path="/contactus" element={<ContactUs />} />
+                <Route path="/about-us" element={<AboutUs />} />
+                <Route path="/contact-us" element={<ContactUs />} />
 
                 <Route path="*" element={<NotFound />} />
             </Routes>
