@@ -71,7 +71,7 @@ export default function MobileNavBar({ navData }) {
     const theme = useTheme();
     const [open, setOpen] = React.useState(false);
 
-    const iconClasses = ['flaticon-home', 'flaticon-sport-shoes', 'flaticon-shoe', 'flaticon-shoes', 'flaticon-information', 'flaticon-24-hours-support'];
+    const iconClasses = ['flaticon-home', 'flaticon-destinations', 'flaticon-plan', 'flaticon-coupletour', 'flaticon-booking', 'flaticon-aboutus', 'flaticon-contactus'];
 
     const toggleDrawer = (anchor, open) => (event) => {
         if (event && event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
