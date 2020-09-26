@@ -1,6 +1,6 @@
 import React from 'react'
 
-import styles from 'Destinations.module.css';
+import styles from './Destinations.module.css';
 
 
 const Destinations = () => {

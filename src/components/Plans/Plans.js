@@ -1,6 +1,6 @@
 import React from 'react'
 
-import styles from 'Plans.module.css';
+import styles from './Plans.module.css';
 
 
 const Plans = () => {

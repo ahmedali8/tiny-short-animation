@@ -1,6 +1,6 @@
 import React from 'react'
 
-import styles from 'CoupleTour.module.css';
+import styles from './CoupleTour.module.css';
 
 
 const CoupleTour = () => {

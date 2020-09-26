@@ -1,6 +1,6 @@
 import React from 'react'
 
-import styles from 'Booking.module.css';
+import styles from './Booking.module.css';
 
 
 const Booking = () => {
