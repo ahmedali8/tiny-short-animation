@@ -1,0 +1,5 @@
+export { default as HomeSvg } from './HomeSvg'
+export { default as DestinationsSvg } from './DestinationsSvg'
+export { default as PlansSvg } from './PlansSvg'
+export { default as CoupleTourSvg } from './CoupleTourSvg'
+export { default as BookingSvg } from './BookingSvg'
