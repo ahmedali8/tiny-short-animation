@@ -1,0 +1,41 @@
+.container {
+    background-image: linear-gradient(to bottom right, #4ca9df, #292e91);
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    margin-top: auto !important;
+}
+
+.btn {
+    display: inline-block !important;
+    text-decoration: none !important;
+    color: var(--clr-text, #fff) !important;
+    font-weight: 700 !important;
+    text-transform: uppercase !important;
+    font-size: 1.125rem !important;
+    padding: .5em 1.25em !important;
+    background: var(--clr-accent, blue) !important;
+    border-radius: .25em;
+    transition: opacity 250ms linear, transform 250ms ease-in-out !important;
+}
+
+.btn:focus, .btn:hover {
+    transform: scale(1.1) !important;
+    opacity: .9 !important;
+}
+
+.icon {
+    font-size: 28px !important;
+    transition: transform 250ms ease-in-out !important;
+}
+
+.icon:focus, .icon:hover {
+    transform: scale(1.2) !important;
+}
+
+@media (max-width: 720px) {
+    .container {
+        margin-top: 0 !important;
+        /* position: fixed; */
+        /* bottom: 0; */
+    }
+}
