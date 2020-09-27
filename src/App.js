@@ -12,7 +12,6 @@ import {
     Footer,
     NotFound
 } from './components';
-import ScrollToTop from './components/Header/ScrollToTop/ScrollToTop';
 
 import styles from './App.module.css';
 
@@ -31,7 +30,6 @@ function App() {
 
                 <Route path="*" element={<NotFound />} />
             </Routes>
-            <ScrollToTop />
             <Footer />
         </div>
     );

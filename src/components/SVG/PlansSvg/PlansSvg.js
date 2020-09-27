@@ -1,5 +1,5 @@
 import React from 'react';
-import useWebAnimations, { fadeInUp, zoomInDown, flash, pulse } from '@wellyshen/use-web-animations';
+import useWebAnimations, { fadeInUp, flash } from '@wellyshen/use-web-animations';
 
 import styles from './PlansSvg.module.css';
 

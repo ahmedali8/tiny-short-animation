@@ -1,5 +1,5 @@
 import React from 'react';
-import useWebAnimations, { bounce, zoomIn, slideInDown, fadeIn, pulse } from '@wellyshen/use-web-animations';
+import useWebAnimations, { slideInDown, pulse } from '@wellyshen/use-web-animations';
 
 import styles from './ContactUsSvg.module.css';
 

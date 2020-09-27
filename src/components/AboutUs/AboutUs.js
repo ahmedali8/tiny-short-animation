@@ -1,7 +1,7 @@
 import React from 'react';
-import { Grid, Typography, Button } from '@material-ui/core';
+import { Grid, Typography } from '@material-ui/core';
 
-import useWebAnimations, { fadeIn, fadeInRight, heartBeat } from '@wellyshen/use-web-animations';
+import useWebAnimations, { fadeIn, fadeInRight } from '@wellyshen/use-web-animations';
 
 import { AboutUsSvg } from '../SVG';
 import styles from './AboutUs.module.css';
