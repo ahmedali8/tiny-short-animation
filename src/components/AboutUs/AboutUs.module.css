@@ -1,0 +1,29 @@
+.aboutUs {
+    margin: 80px auto;
+}
+
+.title {
+    font-weight: 600 !important;
+    line-height: normal !important;
+}
+
+
+@media (max-width: 720px) {
+    .aboutUs {
+        margin-top: 60px !important;
+        /* margin: 0 auto !important;
+        padding-top: 45px !important;
+        padding-bottom: 30px !important; */
+        
+        /* margin: 60px auto !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important; */
+    }
+    .title {
+        font-size: 40px !important;
+    }
+
+    .grid > :first-child {
+        margin-bottom: 40px !important;
+    }
+}
