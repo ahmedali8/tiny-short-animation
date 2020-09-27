@@ -12,7 +12,7 @@ const Home = () => {
     const heartBeatEffect = useWebAnimations({
         ...heartBeat,
         timing: {
-            delay: 1000,
+            delay: 3000,
             duration: 2000
         }
     });
