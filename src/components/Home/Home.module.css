@@ -10,7 +10,12 @@
 
 @media (max-width: 720px) {
     .home {
-        margin: 60px auto;
+        margin: 0 auto !important;
+        /* margin: 60px auto !important;
+        margin-top: 0 !important;
+        margin-bottom: 0 !important; */
+        padding-top: 45px !important;
+        padding-bottom: 30px !important;
     }
 
     .home__title {
