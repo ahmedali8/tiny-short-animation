@@ -1,0 +1,12 @@
+.notFoundSvg {
+    width: 700px;
+    height: auto;
+}
+
+
+@media (max-width: 720px) {
+    .notFoundSvg {
+        width: 300px;
+        height: auto;
+    }
+}
