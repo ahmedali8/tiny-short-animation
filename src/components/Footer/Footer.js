@@ -25,7 +25,7 @@ const Footer = () => {
 					<div className={classes.linkContainer}>
 						<Link
 							className={classes.link}
-							href="https://contact.fyi/lmeuopplnl"
+							href="https://imahmedalibhatti.surge.sh"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
