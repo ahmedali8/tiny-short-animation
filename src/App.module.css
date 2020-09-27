@@ -4,5 +4,5 @@
 
 .app {
     /* background-image: linear-gradient(to bottom right, #4ca9df, #292e91); */
-    height: 100vh;
+    min-height: 100vh;
 }
