@@ -1,0 +1,12 @@
+.bookingSvg {
+    width: 700px;
+    height: auto;
+}
+
+
+@media (max-width: 720px) {
+    .bookingSvg {
+        width: 300px;
+        height: auto;
+    }
+}
