@@ -24,11 +24,11 @@ jobs:
     - name: Install NodeJS
       uses: actions/setup-node@v2-beta
       with:
-        version: 12 
-    
-    # Installs React dependencies
-    - name: Installs react, react-dom, react-scripts
-      run: npm install react react-dom react-scripts 
+        version: 12  
+
+    # npm install
+    - name: Runs npm install
+      run: npm install  
     
     # Builds the App
     - name: Build React App
