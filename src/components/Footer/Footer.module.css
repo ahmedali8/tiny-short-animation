@@ -34,7 +34,8 @@
 
 @media (max-width: 720px) {
     .container {
-        margin-top: 0 !important;
+        /* margin-top: 0 !important; */
+        margin-top: 100px !important;
         /* position: fixed; */
         /* bottom: 0; */
     }
