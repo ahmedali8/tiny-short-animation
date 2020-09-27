@@ -133,7 +133,7 @@ export default function MobileNavBar({ navData }) {
                 <List>
                     {navData.map(({ name, link }, index) => (
                         <Link to={link} key={index} className={classes.link}>
-                            <ListItem button key={name}>
+                            <ListItem button key={name} onClick={toggleDrawer("right", false)}>
                                 <ListItemIcon>
                                     <i className={clsx(iconClasses[index])} style={{ fontWeight: 'bold' }}></i>
                                 </ListItemIcon>
