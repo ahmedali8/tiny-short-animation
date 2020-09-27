@@ -48,7 +48,7 @@ export default function ScrollToTop(props) {
 	return (
 		<React.Fragment>
 			<ScrollTop {...props}>
-				<Fab color="secondary" size="medium" aria-label="scroll back to top">
+				<Fab color="primary" size="medium" aria-label="scroll back to top">
 					<KeyboardArrowUpIcon />
 				</Fab>
 			</ScrollTop>
