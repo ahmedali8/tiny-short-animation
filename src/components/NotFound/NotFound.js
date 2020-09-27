@@ -6,6 +6,13 @@ import styles from './NotFound.module.css';
 
 
 const NotFound = () => {
+
+    const vh = window.innerHeight * 0.01;
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
+    setTimeout(function () {
+        window.scrollTo(0, 1);
+    }, 0);
+
     return (
         <div className={styles.notFound}>
             <Grid container justify="center" alignItems="center">

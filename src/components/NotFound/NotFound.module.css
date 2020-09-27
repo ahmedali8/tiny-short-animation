@@ -1,4 +1,14 @@
 .notFound {
     text-align: center !important;
-    margin: 60px auto !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    /* margin: 60px auto !important; */
+}
+
+
+@media (max-width: 720px) {
+    .notFound {
+        height: calc(var(--vh, 0.5vh) * 100) !important;
+    }
 }
