@@ -1,10 +1,10 @@
 import React from 'react';
 import { Grid, Typography, TextField, FormControl, Button, FormHelperText } from '@material-ui/core';
+import Link from '@material-ui/core/Link';
 
 import useWebAnimations, { fadeIn, fadeInLeft } from '@wellyshen/use-web-animations';
 
 import { ContactUsSvg } from '../SVG';
-
 import styles from './ContactUs.module.css';
 
 
@@ -18,6 +18,7 @@ const ContactUs = () => {
             duration: 2000
         }
     });
+
 
     return (
         <div className={styles.contactUs}>
@@ -58,7 +59,7 @@ const ContactUs = () => {
                                 variant="outlined"
                             />
 
-                            <Button variant="outlined" color="primary" className={styles.btn}>Submit</Button>
+                            <Button onClick={() => alert('Not functional yet')} variant="outlined" color="primary" className={styles.btn}>Submit</Button>
 
                             <FormHelperText id="my-helper-text" color="primary">Form doesnot work right now</FormHelperText>
                         </FormControl>

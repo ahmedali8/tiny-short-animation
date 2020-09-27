@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { Grid, Typography, Button } from '@material-ui/core';
 
 import useWebAnimations, { fadeIn, fadeInLeft, heartBeat } from '@wellyshen/use-web-animations';
@@ -42,7 +43,9 @@ const Home = () => {
                         <Typography variant="body1" color="primary" align="left" gutterBottom className={styles.home__lineTwo}>
                             We provide the best Tours
                         </Typography>
-                        <Button variant="outlined" color="primary" ref={heartBeatEffect.ref}>Learn more</Button>
+                        <Link to="/destinations" className={styles.link}>
+                            <Button variant="outlined" color="primary" ref={heartBeatEffect.ref}>Learn more</Button>
+                        </Link>
                     </div>
                 </Grid>
                 <Grid item xs={10} md={5} ref={fadeInEffect.ref}>

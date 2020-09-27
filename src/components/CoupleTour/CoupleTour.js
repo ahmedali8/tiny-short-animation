@@ -1,4 +1,6 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
+
 import { Grid, Typography, Button } from '@material-ui/core';
 
 import useWebAnimations, { fadeIn, fadeInRight, heartBeat } from '@wellyshen/use-web-animations';
@@ -44,13 +46,15 @@ const CoupleTour = () => {
                     <div ref={fadeInRightEffect.ref}>
                         <Typography variant="h2" color="primary" align="left" gutterBottom className={styles.title}>
                             COUPLES TOUR
-                    </Typography>
+                        </Typography>
                         <Typography variant="body1" color="primary" align="left" gutterBottom className={styles.lineTwo}>
                             Discover the best Honeymoon tours packages
                             <br />
                             Book your Trip Now
-                    </Typography>
-                        <Button variant="outlined" color="primary" ref={heartBeatEffect.ref}>Bookings</Button>
+                        </Typography>
+                        <Link to="/booking" className={styles.link}>
+                            <Button variant="outlined" color="primary" ref={heartBeatEffect.ref}>Booking</Button>
+                        </Link>
                     </div>
                 </Grid>
             </Grid>
