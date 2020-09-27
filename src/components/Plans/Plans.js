@@ -1,6 +1,6 @@
 import React from 'react'
 import { Grid, Typography, Button } from '@material-ui/core';
-import useWebAnimations, { fadeInLeft, heartBeat } from '@wellyshen/use-web-animations';
+import useWebAnimations, { fadeIn, fadeInLeft, heartBeat } from '@wellyshen/use-web-animations';
 
 import { PlansSvg } from '../SVG';
 import styles from './Plans.module.css';
@@ -9,7 +9,14 @@ import styles from './Plans.module.css';
 const Plans = () => {
 
     const fadeInLeftEffect = useWebAnimations({ ...fadeInLeft });
-    
+
+    const fadeInEffect = useWebAnimations({
+        ...fadeIn,
+        timing: {
+            duration: 2000
+        }
+    });
+
     const heartBeatEffect = useWebAnimations({
         ...heartBeat,
         timing: {
@@ -37,7 +44,7 @@ const Plans = () => {
                         <Button variant="outlined" color="primary" ref={heartBeatEffect.ref}>Booking</Button>
                     </div>
                 </Grid>
-                <Grid item xs={10} md={5}>
+                <Grid item xs={10} md={5} ref={fadeInEffect.ref}>
                     <div>
                         <PlansSvg />
                     </div>

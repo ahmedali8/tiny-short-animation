@@ -1,7 +1,7 @@
 import React from 'react'
 import { Grid, Typography, Button } from '@material-ui/core';
 
-import useWebAnimations, { fadeInRight, heartBeat } from '@wellyshen/use-web-animations';
+import useWebAnimations, { fadeIn, fadeInRight, heartBeat } from '@wellyshen/use-web-animations';
 
 import { DestinationsSvg } from '../SVG';
 import styles from './Destinations.module.css';
@@ -10,6 +10,13 @@ import styles from './Destinations.module.css';
 const Destinations = () => {
 
     const fadeInRightEffect = useWebAnimations({ ...fadeInRight });
+
+    const fadeInEffect = useWebAnimations({
+        ...fadeIn,
+        timing: {
+            duration: 2000
+        }
+    });
 
     const heartBeatEffect = useWebAnimations({
         ...heartBeat,
@@ -27,7 +34,7 @@ const Destinations = () => {
                 alignItems="center"
                 className={styles.grid}
             >
-                <Grid item xs={10} md={5}>
+                <Grid item xs={10} md={5} ref={fadeInEffect.ref}>
                     <div>
                         <DestinationsSvg />
                     </div>
