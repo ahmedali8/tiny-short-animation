@@ -1,0 +1,12 @@
+.destinationsSvg {
+    width: 500px;
+    height: auto;
+}
+
+
+@media (max-width: 720px) {
+    .destinationsSvg {
+        width: 300px;
+        height: auto;
+    }
+}
