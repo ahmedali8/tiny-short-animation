@@ -1,0 +1,12 @@
+.coupleTourSvg {
+    width: 500px;
+    height: auto;
+}
+
+
+@media (max-width: 720px) {
+    .coupleTourSvg {
+        width: 300px;
+        height: auto;
+    }
+}
